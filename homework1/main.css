@@ -1,0 +1,26 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color: purple;
+    text-decoration: underline;
+}
+
+span {
+    font-weight:bold;
+}
+
+ul {
+    border: 2px cadetblue;
+}
+
+.name{
+    background-color: plum;
+    color: #1a54cd;
+}
+
+.photo{
+    height: 300px;
+}
+
