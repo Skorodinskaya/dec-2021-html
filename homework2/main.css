@@ -1,13 +1,9 @@
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .first{
+    box-sizing: border-box;
     background-color: #e4e4e4;
-    width: auto;
+    margin: 30px 150px 10px 230px;
+    padding: 20px;
+
 }
 
 .box{
@@ -19,16 +15,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-p {
     font-size: 40px;
 }
 
 .row {
-    display: flex;
     margin-bottom:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxA {
@@ -56,4 +50,40 @@ p {
 .boxF {
     box-shadow: rgba(71, 71, 71, 0.5) 20px 30px 10px 10px;;
     border-radius: 10px;
+}
+
+.lesson {
+    background-color: #8a2928;;
+    height: 40px;
+    color: wheat;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.firstText{
+    box-sizing: border-box;
+    background-color: rgba(71, 71, 71, 0.5);
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.secondText {
+    box-sizing: border-box;
+    background-color: #6496ec;
+    font-size: 20px;
+    padding: 40px 0;
+}
+
+.square{
+    background-color: #6bba67;
+    width: 300px;
+    height: 300px;
+}
+
+.blueFigure{
+    background-color: #8987ac;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
 }
