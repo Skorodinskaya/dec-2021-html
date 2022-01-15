@@ -1,0 +1,95 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.height250 {
+    height: 250px;
+}
+
+.aBox {
+    width: 800px;
+    background-color: #ffb7ff;
+    margin-bottom: 10px;
+}
+
+.bBox {
+    width: 500px;
+    background-color: #9fe2ff;
+    margin-bottom: 10px;
+}
+
+.downBoxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.threeBox {
+    width: 150px;
+    height: 150px;
+    background-color: #6bba67;
+}
+
+.fBox {
+    width: 290px;
+    height: 410px;
+    background-color: #8b40bb;
+    margin-left: 10px;
+}
+
+.secondBlock {
+    display: flex;
+}
+
+.downSixBoxes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sixthBox {
+    width: 150px;
+    height: 150px;
+    background-color: #6bba67;
+}
+
+.sideBox {
+    width: 290px;
+    height: 310px;
+    background-color: #8b40bb;
+    margin-left: 10px;
+}
+
+.home {
+    width: 300px;
+    height: 450px;
+    background-color: #2269bb;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.kabobs {
+    background-color: #2269bb;
+    margin-bottom: 20px;
+}
+
+.littleBox {
+    background-color: #16457a;
+    width: 200px;
+    height: 220px;
+}
+
+p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
