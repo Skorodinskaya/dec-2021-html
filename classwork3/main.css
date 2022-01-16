@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-.height250 {
-    height: 250px;
+.height200 {
+    height: 200px;
 }
 
 .aBox {
@@ -15,7 +15,7 @@
 }
 
 .bBox {
-    width: 500px;
+    width: 650px;
     background-color: #9fe2ff;
     margin-bottom: 10px;
 }
@@ -26,13 +26,12 @@
 }
 
 .threeBox {
-    width: 150px;
-    height: 150px;
+    width: 200px;
     background-color: #6bba67;
 }
 
 .fBox {
-    width: 290px;
+    width: 140px;
     height: 410px;
     background-color: #8b40bb;
     margin-left: 10px;
@@ -40,25 +39,6 @@
 
 .secondBlock {
     display: flex;
-}
-
-.downSixBoxes {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.sixthBox {
-    width: 150px;
-    height: 150px;
-    background-color: #6bba67;
-}
-
-.sideBox {
-    width: 290px;
-    height: 310px;
-    background-color: #8b40bb;
-    margin-left: 10px;
 }
 
 .home {
@@ -88,8 +68,13 @@
     height: 220px;
 }
 
-p {
-    font-size: 30px;
+.text {
     display: flex;
+    align-items: center;
     justify-content: center;
+    font-size: 25px;
+}
+
+.marginBottom {
+    margin-bottom: 10px;
 }
