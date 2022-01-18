@@ -14,10 +14,11 @@
     height: 150px;
 }
 
-.width80{
+.width80 {
     width: 80px;
 }
-.width50{
+
+.width50 {
     width: 50px;
 }
 
@@ -87,16 +88,31 @@
     box-sizing: border-box;
 }
 
-.footer{
-    width: 800px;
-    height: 50px;
-    background-color: #ced8e1;
-}
 
 .display-flex {
     display: flex;
 }
 
-.middle{
-    padding: 10px 0 0 20px;
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.skyColor {
+    background-color: #3ac6ea;
+}
+
+.width800px {
+    width: 800px;
+}
+
+.height40 {
+    height: 40px;
+}
+
+.height5 {
+    height: 5px;
+}
+
+.width50per {
+    width: 50%
 }
