@@ -32,8 +32,7 @@
     align-items: center;
 }
 
-.bigBlock {
-    width: 800px;
+.height350 {
     height: 350px;
 }
 
@@ -101,8 +100,8 @@
     background-color: #3ac6ea;
 }
 
-.width800px {
-    width: 800px;
+.width1000px {
+    width: 1000px;
 }
 
 .height40 {
@@ -115,4 +114,51 @@
 
 .width50per {
     width: 50%
+}
+
+.height80 {
+    height: 80px;
+}
+
+.height60 {
+    height: 60px;
+}
+
+.border-radius20 {
+    border-radius: 20px;;
+}
+
+.height800 {
+    height: 800px;
+}
+
+.boxInBorder {
+    width: 250px;
+    height: 300px;
+}
+
+.width200 {
+    width: 200px;
+}
+
+.columnGap90 {
+    column-gap: 90px;
+}
+
+.smallCircle {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.border-top {
+    border-top: 5px solid skyblue;
 }
