@@ -162,3 +162,37 @@
 .border-top {
     border-top: 5px solid skyblue;
 }
+
+.boxFooter {
+    position: relative;
+    top: 10px;
+    width: 250px;
+    height: 0;
+    border: solid skyblue;
+    border-radius: 30px;
+}
+
+.boxInFooter {
+    display: flex;
+    padding: 10px 20px 5px 15px;
+}
+
+.width300 {
+    width: 300px;
+}
+
+.height200 {
+    height: 200px;
+}
+
+.height30 {
+    height: 30px;
+}
+
+.border-radius10 {
+    border-radius: 10px;
+}
+
+.height2 {
+    height: 2px;
+}
