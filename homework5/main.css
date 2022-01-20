@@ -1,0 +1,62 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 810px;
+}
+
+.greyColour {
+    background-color: #676767;
+}
+
+.height100 {
+    height: 100px;
+}
+
+.width600 {
+    width: 600px;
+}
+
+.columnGap10 {
+    column-gap: 10px;
+}
+
+.width200px {
+    width: 200px;
+}
+
+.height400 {
+    height: 400px;
+}
+
+.padding-top10 {
+    padding-top: 10px;
+}
+
+.margin-top10 {
+    margin-top: 10px;
+}
+
+.width390{
+width: 390px;
+}
+
+.height150 {
+    height: 150px;
+}
+
+.margin-left10 {
+    margin-left: 10px;
+}
+
+.height460 {
+    height: 460px;
+}
+
+h3 {
+    color: white;
+    margin: 0;
+}
