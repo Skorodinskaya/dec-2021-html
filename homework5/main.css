@@ -6,7 +6,64 @@
 
 .main {
     width: 810px;
+    height: 100px;
 }
+
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+.header {
+    width: 600px;
+    height: 100px;
+}
+
+.navFather {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav {
+    width: 200px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.four {
+    width: 390px;
+    height: 150px;
+}
+
+.five {
+    width: 200px;
+    height: 150px;
+}
+
+.six {
+    width: 390px;
+    height: 460px;
+}
+
+.seven {
+    width: 200px;
+    height: 460px;
+}
+
+.eight, .nine {
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.rightBlock {
+    margin-left: 10px;
+}
+
+.display-flex {
+    display: flex;
+}
+
 
 .greyColour {
     background-color: #676767;
@@ -40,8 +97,8 @@
     margin-top: 10px;
 }
 
-.width390{
-width: 390px;
+.width390 {
+    width: 390px;
 }
 
 .height150 {
@@ -59,4 +116,87 @@ width: 390px;
 h3 {
     color: white;
     margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    .width200px {
+        width: 80px;
+    }
+
+    .height100 {
+        height: 50px;
+    }
+
+    .width600 {
+        width: 250px;
+    }
+
+    .nav {
+        width: 340px;
+        height: 50px;
+        display: flex;
+        margin: 10px;
+    }
+
+    .bath {
+        width: 200px;
+        height: 80px;
+    }
+
+    .ad {
+        width: 130px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .types {
+        width: 340px;
+    }
+
+    .products {
+        width: 340px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .eight-nine {
+        display: flex;
+        column-gap: 10px;
+        margin: -10px 10px 10px 10px;
+    }
+
+    .store, .tools {
+        width: 165px;
+    }
+
+    .middle {
+        display: block;
+    }
+
+    .footer {
+        width: 340px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .mediaWidth {
+        background-color: #8b40bb;
+        width: 350px;
+    }
+
+    .six-seven {
+        display: block;
+        order: 2;
+    }
+
+    .four-five {
+        order: 1;
+    }
+
+    .error {
+    }
 }
