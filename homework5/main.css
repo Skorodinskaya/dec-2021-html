@@ -36,7 +36,17 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 1300px) {
+.height100 {
+    height: 100px;
+}
+.width150 {
+    width: 190px;
+}
+
+.height210 {
+    height: 210px;
+}
+@media screen and (max-width: 900px) {
     .A {
         width: 300px;
         height: 80px;
@@ -48,7 +58,7 @@
         border-radius: 10px;
     }
 
-    .C {
+    .C, .F, .H-3 {
         margin-top: 10px;
         border-radius: 10px;
         width: 300px;
@@ -59,4 +69,9 @@
         display: block;
     }
 
+    .C-2, .D, .E, .B-3, .C-3, .D-3, .E-2, .F-3, .G-3 {
+        width: 90px;
+        height: 50px;
+        border-radius: 10px;
+    }
 }
