@@ -1,0 +1,88 @@
+.colorCheck {
+    background-color: aquamarine;
+}
+
+.background {
+    background-color: #ced8e1;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.width800 {
+    width: 800px;
+}
+
+.width600 {
+    width: 600px
+}
+
+.display_flex {
+    display: flex;
+}
+
+.width50per {
+    width: 50%;
+}
+
+.color {
+    background-color: cornflowerblue;
+}
+
+.width100 {
+    width: 100px;
+}
+
+.height25 {
+    height: 25px;
+}
+
+.justify_end {
+    justify-content: flex-end;
+}
+
+.heightMin {
+    min-height: 300px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.height200 {
+    height: 200px;
+}
+
+.height100 {
+    height: 100px;
+}
+.columnGap10 {
+    column-gap: 10px;
+}
+
+.width490 {
+    width: 490px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.width360 {
+    width: 360px;
+}
+
+.width150 {
+    width: 150px;
+}
+
+.width80 {
+    width: 80px;
+}
+
+.height50 {
+    height: 60px ;
+}
+
