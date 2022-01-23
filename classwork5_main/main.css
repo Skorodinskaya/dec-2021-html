@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .width800 {
     width: 800px;
 }
@@ -58,6 +59,7 @@
 .height100 {
     height: 100px;
 }
+
 .columnGap10 {
     column-gap: 10px;
 }
@@ -83,9 +85,162 @@
 }
 
 .height50 {
-    height: 60px ;
+    height: 60px;
 }
 
 .margin-top20 {
     margin-top: 20px;
 }
+
+.block6_media {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .color {
+        background-color: #8b40bb;
+    }
+
+    .width800 {
+        width: 400px;
+    }
+
+    .width600 {
+        width: 300px;
+    }
+
+    .block2 {
+        display: none;
+    }
+
+    .block3 {
+        width: 300px;
+    }
+
+    .block4 {
+        display: block;
+    }
+
+    .block4_1-2 > div, .block4_3-4 > div {
+        width: 135px;
+    }
+
+    .block4_1-2 {
+        margin-bottom: 10px;
+    }
+
+    .block5_1 {
+        display: none;
+    }
+
+    .block5_2 > div {
+        width: 135px;
+        height: 70px;
+    }
+
+    .block5_bottom > div {
+        width: 100px;
+        margin-right: 40px;
+    }
+
+    .block6 {
+        display: none;
+    }
+
+    .block6_media {
+        display: block;
+    }
+
+    .blocks3--7 {
+        width: 300px;
+    }
+
+    .width135 {
+        width: 135px;
+    }
+
+    .block7_1 {
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .color {
+        background-color: #8a2928;
+    }
+
+    .width800 {
+        width: 300px;
+    }
+
+    .block1 {
+        height: 15px;
+        margin-top: 20px;
+    }
+
+    .block1_1 {
+        justify-content: flex-end;
+    }
+
+    .block1_2 {
+        justify-content: flex-start;
+    }
+
+    .blocks3--7 {
+        width: 200px;
+    }
+
+    .block3 {
+        width: 200px;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .center {
+        justify-content: center;
+    }
+
+    .block4_1-2 > div, .block4_3-4 > div {
+        width: 90px;
+        height: 70px;
+    }
+
+    .block5_2 > div {
+        width: 100px;
+        height: 25px;
+    }
+
+    .block5_1_1 {
+        display:flex;
+    }
+
+    .block5_1_1 >div {
+        width: 100px;
+        height: 25px;
+    }
+
+    .block5_bottom >div {
+        height: 15px;
+        width: 50px;
+        margin-left: 40px;
+    }
+
+    .block6_media >div {
+        display: block;
+    }
+
+    .block6_media_1 {
+        width: 200px;
+        height: 20px;
+    }
+
+    .block6_media_2 {
+        margin-top: 10px;
+        width: 200px;
+    }
+
+    .block7_1 {
+        width: 200px;
+    }
+}
+
