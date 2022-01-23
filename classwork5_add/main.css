@@ -4,66 +4,11 @@
     align-items: center;
 }
 
-.main {
-    width: 810px;
-    height: 100px;
-}
-
-.logo {
-    width: 200px;
-    height: 100px;
-}
-
-.header {
-    width: 600px;
-    height: 100px;
-}
-
-.navFather {
-    display: flex;
-    justify-content: flex-start;
-}
-
 .nav {
     width: 200px;
     height: 400px;
     margin-top: 10px;
 }
-
-.four {
-    width: 390px;
-    height: 150px;
-}
-
-.five {
-    width: 200px;
-    height: 150px;
-}
-
-.six {
-    width: 390px;
-    height: 460px;
-}
-
-.seven {
-    width: 200px;
-    height: 460px;
-}
-
-.eight, .nine {
-    width: 200px;
-    height: 100px;
-    margin-top: 10px;
-}
-
-.rightBlock {
-    margin-left: 10px;
-}
-
-.display-flex {
-    display: flex;
-}
-
 
 .greyColour {
     background-color: #676767;
@@ -118,10 +63,11 @@ h3 {
     margin: 0;
 }
 
-@media screen and (max-width: 500px) {
-    * {
-        box-sizing: border-box;
-    }
+.eight-nine_copy {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
 
     .width200px {
         width: 80px;
@@ -164,9 +110,7 @@ h3 {
     }
 
     .eight-nine {
-        display: flex;
-        column-gap: 10px;
-        margin: -10px 10px 10px 10px;
+        display: none;
     }
 
     .store, .tools {
@@ -197,6 +141,9 @@ h3 {
         order: 1;
     }
 
-    .error {
-    }
+   .eight-nine_copy {
+       display: flex;
+       column-gap: 10px;
+       margin: -10px 10px 10px 10px;
+   }
 }
