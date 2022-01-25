@@ -75,3 +75,75 @@
     -moz-box-shadow: 6px 4px 8px 0 rgba(50, 50, 50, 0.92);
     box-shadow: 6px 4px 8px 0 rgba(50, 50, 50, 0.92);
 }
+
+.firstBlock {
+    margin-top: 14px;
+    display: flex;
+}
+
+.firstBlock_left {
+    /*margin: 154px 147px 445px 147px;*/
+}
+
+.title {
+    height: 384px;
+    width: 436px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 64px;
+}
+
+.firstBlock_left p {
+    font-size: 22px;
+    line-height: 32px;
+    height: 96px;
+    margin-top: 32px;
+}
+
+.firstBlock-buttons {
+    display: flex;
+    column-gap: 16px;
+}
+
+.firstBlock_left button {
+    height: 54px;
+    border-radius: 4px;
+    margin-top: 38px;
+}
+
+.firstBlock_yellow_btn {
+    width: 163px;
+    background-color: var(--yellow);
+}
+.firstBlock_white_btn {
+    width: 156px;
+    background-color: white;
+}
+
+.firstBlock_right img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.poll_video {
+    width: 608px;
+    position: relative;
+    bottom: 710px;
+    right: 120px;
+}
+
+.w50per {
+    width: 50%;
+}
+
+.secondBlock_content {
+    display: flex;
+    justify-content: center;
+}
+
+.secondBlock_content p {
+    font-size: 42px;
+    line-height: 48px;
+}
