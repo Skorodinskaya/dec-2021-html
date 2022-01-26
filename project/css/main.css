@@ -70,7 +70,7 @@
     transition: box-shadow .35ms;
 }
 
-.nav_menu_right button:hover {
+button:hover {
     -webkit-box-shadow: 6px 4px 8px 0 rgba(50, 50, 50, 0.92);
     -moz-box-shadow: 6px 4px 8px 0 rgba(50, 50, 50, 0.92);
     box-shadow: 6px 4px 8px 0 rgba(50, 50, 50, 0.92);
@@ -314,7 +314,7 @@ button {
 }
 
 .seventhBlock {
-    margin-top: 226px;
+    margin: 226px 0 152px 0;
 }
 
 .seventhBlock_content_firstPart {
@@ -351,7 +351,7 @@ button {
     margin-top: 140px;
 }
 
-.seventhBlock_content_buttons button{
+.seventhBlock_content_buttons button {
     height: 23px;
     border-radius: 4px;
     text-transform: uppercase
@@ -379,5 +379,119 @@ button {
     column-gap: 8px;
 }
 
+.eighthBlock {
+    height: 960px;
+    background-color: #f2ede7;
+}
 
+.eighthBlock_content {
+    padding: 96px 122px 95px 122px;
+}
 
+.eighthBlock_content_text {
+    width: 1064px;
+    height: 162px;
+}
+
+.eighthBlock_content_text p:nth-child(1) {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.eighthBlock_content_text p:nth-child(2) {
+    font-size: 60px;
+    line-height: 64px;
+}
+
+.eighthBlock_content_downPart img {
+    margin: 20px 0 0 150px;
+}
+
+.eighthBlock_accordion {
+    width: 589px;
+    height: 408px;
+    margin: 120px 122px 94px 254px;
+}
+
+.accordion {
+    color: #444;
+    background-color: #f2ede7;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: '\2713';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2193";
+}
+
+.panel {
+    background-color: #f2ede7;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.eighthBlock_accordion {
+    border-top: 2px solid #C9316F;
+}
+
+.eighthBlock_accordion button {
+    border: none;
+    border-bottom: 2px solid #C3CACD;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--black-color);
+    margin-top: 25px;
+}
+
+.panel p:nth-child(1) {
+    font-size: 17px;
+    line-height: 28px;
+    color: #375361;
+    margin-top: 25px;
+}
+.panel p:nth-child(2) {
+    font-size: 17px;
+    line-height: 28px;
+    color: #375361;
+    margin-top: 36px;
+    width: 563px;
+}
+
+.eighthBlock_accordion_link {
+    column-gap: 8px;
+    border-bottom: 2px solid #C3CACD;
+    padding-bottom: 15px;
+}
+
+.eighthBlock_accordion_link a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.eighthBlock_accordion_link img {
+    margin: 0;
+    cursor: pointer;
+}
+
+.eighthBlock_accordion_link a:hover {
+    text-decoration: underline;
+}
