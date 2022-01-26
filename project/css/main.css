@@ -108,11 +108,22 @@ h1 {
     column-gap: 16px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .yellow_button {
     width: 163px;
     height: 54px;
     border-radius: 4px;
     background-color: var(--yellow);
+}
+
+.white_button {
+    width: 163px;
+    height: 54px;
+    border-radius: 4px;
+    background-color: white;
 }
 
 .firstBlock_left button {
@@ -146,7 +157,7 @@ h1 {
     margin-top: 189px;
 }
 
-.secondBlock_content{
+.secondBlock_content {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -264,6 +275,7 @@ h1 {
     height: 287px;
     margin-top: 103px;
 }
+
 .fifthBlock_text p:nth-child(1) {
     font-size: 42px;
     line-height: 48px;
@@ -274,3 +286,98 @@ h1 {
     line-height: 28px;
     margin-top: 39px;
 }
+
+.sixthBlock {
+    margin-top: 136px;
+}
+
+.sixthBlock_content {
+    width: 593px;
+    height: 239px;
+}
+
+.sixthBlock_content p:nth-child(1) {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.sixthBlock_content p:nth-child(2) {
+    font-size: 42px;
+    line-height: 48px;
+    margin-top: 13px;
+}
+
+.sixthBlock_content p:nth-child(3) {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 26px;
+}
+
+.seventhBlock {
+    margin-top: 226px;
+}
+
+.seventhBlock_content_firstPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seventhBlock_content_firstPart_text {
+    width: 484px;
+    height: 334px;
+}
+
+.seventhBlock_content_firstPart_text_paragraphs p:nth-child(1) {
+    font-size: 34px;
+    line-height: 40px;
+    margin-top: 23px;
+}
+
+.seventhBlock_content_firstPart_text_paragraphs p:nth-child(2) {
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 29px;
+}
+
+.seventhBlock_content_firstPart_text button {
+    margin-top: 64px;
+}
+
+.seventhBlock_content_secondPart button {
+    margin-top: 36px;
+}
+
+.seventhBlock_content_secondPart {
+    margin-top: 140px;
+}
+
+.seventhBlock_content_buttons button{
+    height: 23px;
+    border-radius: 4px;
+    text-transform: uppercase
+}
+
+.seventhBlock_content_buttons button:nth-child(1) {
+    background-color: #E7EAEB;
+    width: 228px;
+    color: #61757E;
+}
+
+.seventhBlock_content_buttons button:nth-child(2) {
+    background-color: #E7EAEB;
+    width: 147px;
+    color: #61757E;
+}
+
+.seventhBlock_content_buttons button:nth-child(3) {
+    background-color: var(--yellow);
+    width: 152px;
+    color: var(--black-color);
+}
+
+.seventhBlock_content_buttons {
+    column-gap: 8px;
+}
+
+
+
