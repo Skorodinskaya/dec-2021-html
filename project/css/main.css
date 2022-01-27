@@ -360,19 +360,26 @@ button {
 .seventhBlock_content_buttons button:nth-child(1) {
     background-color: #E7EAEB;
     width: 228px;
+    height: 23px;
     color: #61757E;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .seventhBlock_content_buttons button:nth-child(2) {
     background-color: #E7EAEB;
     width: 147px;
     color: #61757E;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .seventhBlock_content_buttons button:nth-child(3) {
-    background-color: var(--yellow);
+    background-color: #FE9F28;
     width: 152px;
     color: var(--black-color);
+    font-size: 12px;
+    line-height: 16px;
 }
 
 .seventhBlock_content_buttons {
@@ -466,6 +473,7 @@ button {
     color: #375361;
     margin-top: 25px;
 }
+
 .panel p:nth-child(2) {
     font-size: 17px;
     line-height: 28px;
@@ -495,3 +503,69 @@ button {
 .eighthBlock_accordion_link a:hover {
     text-decoration: underline;
 }
+
+.ninthBlock_content {
+    justify-content: space-between;
+    margin: 184px 0 264px 148px;
+}
+
+.ninthBlock_content_leftPart {
+    width: 669px;
+    height: 370px;
+}
+
+.ninthBlock_content_leftPart p:nth-child(1) {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.ninthBlock_content_leftPart p:nth-child(2) {
+    font-size: 34px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.ninthBlock_content_leftPart p:nth-child(3) {
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 37px;
+}
+
+.ninthBlock_content_leftPart button {
+    width: 208px;
+    height: 54px;
+    border-radius: 4px;
+    background-color: var(--yellow);
+    margin-top: 36px;
+}
+
+.ninthBlock_content_rightPart img {
+    width: 512px;
+    height: 418px;
+}
+
+/*.tenthBlock {*/
+/*    margin-top: 264px;*/
+/*}*/
+
+.tenthBlock_content {
+    margin: 264px 0 46px 32px;
+}
+
+.tenthBlock_content_blocks {
+    display: flex;
+    height: 584px;
+    width: 1376px;
+}
+
+.tenthBlock_content_greyBlock {
+    background-color: #f2ede7;
+
+}
+
+.tenthBlock_content_yellowBlock {
+    background-color: var(--yellow);
+}
+
+
+
